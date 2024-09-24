@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+    <!-- Background -->
+    <rect width="200" height="200" rx="20" ry="20" fill="url(#gradient)" />
+    <defs>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:lightblue;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:green;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <!-- Tree -->
+    <rect x="90" y="110" width="10" height="30" fill="#8B4513" /> <!-- Tree trunk -->
+    <circle cx="95" cy="100" r="25" fill="green" /> <!-- Tree canopy -->
+    <circle cx="95" cy="95" r="22" fill="#006400" opacity="0.8" /> <!-- Darker green layer for depth -->
+    <circle cx="95" cy="105" r="22" fill="#006400" opacity="0.8" /> <!-- Darker green layer for depth -->
+
+    <!-- Pickaxe -->
+    <path d="M105 110 L125 100 L115 120 Z" fill="#A9A9A9" /> <!-- Pickaxe head -->
+    <rect x="113" y="120" width="4" height="30" fill="#DAA520" /> <!-- Pickaxe handle -->
+
+    <!-- Dirt Block -->
+    <rect x="20" y="140" width="40" height="40" fill="#8B4513" /> <!-- Dirt block -->
+    <rect x="20" y="140" width="40" height="10" fill="#228B22" /> <!-- Grass on dirt block -->
+    
+    <!-- Grass details -->
+    <path d="M20 140 L10 150 L20 145 L30 150 L20 140" fill="#4CAF50" />
+    <path d="M30 140 L35 155 L30 150 L25 155 L30 140" fill="#4CAF50" />
+</svg>
